@@ -6,6 +6,7 @@ button{
 	border: none;
 	border-radius: 2px;
 	color: white;
+	background-color: #fc5200;
 }
 
 button.current{

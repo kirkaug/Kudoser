@@ -1,7 +1,7 @@
 {
   "name": "Kudoser",
   "description": "automates kudosing on a popular fitness social media platform",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "icons": 
   {
 	  "16":"/icons/16.png",
@@ -10,8 +10,7 @@
 	  "128":"/icons/128.png"
   },
   "manifest_version": 3,
-  "background": {"service_worker": "background.js"},
-  "permissions": ["storage", "activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting"],
   "action": 
   {
 	  "default_popup": "popup.html",
